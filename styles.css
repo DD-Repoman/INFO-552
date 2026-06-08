@@ -1,0 +1,121 @@
+body {
+  margin: 0 0 0 0;
+  font-family: 'Plus Jakarta Sans', sans-serif;
+  font-size: 1.125em;
+  color: #2C2A29;
+  background-color: #F7F5F0;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+header {
+  margin: 0;
+  font-size: 2em;
+  padding: 1em 0 0 1em;
+  background-color: #A7977E;
+}
+
+header h1 {
+  margin: 0 0 0 15%; 
+  font-weight: 800;
+}
+
+header p {
+  margin: 0 0 1em 15%;
+  font-size: 0.75em;
+}
+
+.topnav {
+  margin: 0 0 0 15%;
+  overflow: hidden;
+  background-color: #A7977E;
+}
+
+.topnav a {
+  float: left;
+  display: block;
+  color: #2C2A29;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 0.55em;
+  font-weight: bold;
+}
+
+.topnav a:hover {
+  background-color: #F7F5F0;
+  color: #2C2A29;
+}
+
+.navactive {
+  background-color: #F7F5F0;
+  color: #2C2A29;
+}
+
+
+main {
+    margin: 0 15%;
+    padding: 2em;
+    flex: 1;
+    font-size: 1.25em;
+}
+
+.section {
+    width: 100%;
+    background-color: #A7977E;
+    padding: 1em;
+    font-size: 1.25em;
+    font-weight: bold;
+}
+
+#writ, #phys, #vid, #aud, #digi {
+    display: none;
+    margin: 1em 0;
+}
+
+.toggle-content {
+    display: flex;
+    gap: 1em;
+    align-items: flex-start;
+}
+
+.toggle-content img {
+    width: 30%;
+    height: auto;
+    margin: 1em 0;
+}
+
+.toggle-content h3 {
+  overflow: hidden;
+  inline-size: 300px;
+  max-width: 100%;
+}
+
+.active, .section:hover {
+  background-color: #796d5a;
+  cursor: pointer;
+}
+
+.card {
+  margin: 2em 0;
+}
+
+.card li {
+  margin: 0 0 0 2em;
+}
+
+.mygrid{
+  margin: 0 0 0 2em;
+}
+
+footer {
+  background-color: #A7977E;
+  padding: 3em;
+  color: #2C2A29;
+}
+
+footer p {
+  font-weight: bold;
+  margin: 0 0 0 15%;
+}
