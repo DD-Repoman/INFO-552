@@ -55,35 +55,35 @@ header p {
 
 
 main {
-    margin: 0 15%;
-    padding: 2em;
-    flex: 1;
-    font-size: 1.25em;
+  margin: 0 15%;
+  padding: 2em;
+  flex: 1;
+  font-size: 1.25em;
 }
 
 .section {
-    width: 100%;
-    background-color: #A7977E;
-    padding: 1em;
-    font-size: 1.25em;
-    font-weight: bold;
+  width: 100%;
+  background-color: #A7977E;
+  padding: 1em;
+  font-size: 1.25em;
+  font-weight: bold;
 }
 
 #writ, #phys, #vid, #aud, #digi {
-    display: none;
-    margin: 1em 0;
+  display: none;
+  margin: 1em 0;
 }
 
 .toggle-content {
-    display: flex;
-    gap: 1em;
-    align-items: flex-start;
+  display: flex;
+  gap: 1em;
+  align-items: flex-start;
 }
 
 .toggle-content img {
-    width: 30%;
-    height: auto;
-    margin: 1em 0;
+  width: 30%;
+  height: auto;
+  margin: 1em 0;
 }
 
 .toggle-content h3 {
@@ -113,9 +113,22 @@ footer {
   background-color: #A7977E;
   padding: 3em;
   color: #2C2A29;
+  display: flex;
+  align-items: center;
+  gap: 1.5em;
 }
 
 footer p {
   font-weight: bold;
-  margin: 0 0 0 15%;
+  margin: 0;
+  white-space: nowrap;
+}
+
+footer .copyright {
+  margin: 0 0 0 17%;
+}
+
+footer .cssvalid{
+  display: flex;
+  align-items: center;
 }
